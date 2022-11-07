@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "slug": "hela-cactus-eco-trainer-by-genesis-black",
+      "title": "Hela | Cactus Leather Eco Trainer by Genesis | Black",
+      "image": "https://veo-cdn.imgix.net/products/26687/s_files_1_0863_4804_products_shoes-hela-cactus-eco-trainer-by-genesis-black-1.png?fit=clip&auto=format&w=1080",
+      "description": "• Mesh/mesh fabric made from recycled PET plastic bottles • Cactus based vegan leather • Recycled EVA foam insole • Cork sole from sustainable production • Laces made from recycled PET plastic bottles • Seams made from recycled PET plastic bottles • Lining in Abacá banana canvas and recycled cotton • Sole made from at least 40% natural rubber (unbleached) from Vietnam"
+    },
+    {
+      "slug": "la-marseille-tricolore",
+      "title": "The Marseille 21 Tricolor | Recycled Plastic Bottle Sneakers | White, Red, Blue",
+      "image": "https://veo-cdn.imgix.net/products/23590/s_files_1_0081_8583_9706_products_CORAIL-Sneaker_Blue-okShopify.png?fit=clip&auto=format&w=1080",
+      "description": "Marseille 21 is made from 8 Marseille bottles Recycled polyester fabric from Marseille bottles. Polyester upper recycled from plastic bottles, with a water-based patina Polyester laces recycled from plastic bottles"
+    },
+    {
+      "slug": "la-marseille-desert",
+      "title": "Marseille 21 Desert | Recycled Plastic Bottle Sneakers | Sand & White",
+      "image": "https://veo-cdn.imgix.net/products/23578/s_files_1_0081_8583_9706_products_custom_resized_ca23141e-1d7d-458d-9e70-f3828421a28f.jpeg?fit=clip&auto=format&w=1080",
+      "description": "Marseille 21 is made from 8 Marseille bottles Recycled polyester fabric from Marseille bottles. Polyester upper recycled from plastic bottles, with a water-based patina Polyester laces recycled from plastic bottles"
+    },
+    {
+      "slug": "natural-rubber-flip-flop-dusky-pink",
+      "title": "100% Natural Biodegradable & Recyclable Vegan Rubber Unisex Flip Flop | Dusky Pink",
+      "image": "https://veo-cdn.imgix.net/products/20504/wp-content_uploads_2021_02_pink-resized-1.jpeg?fit=clip&auto=format&w=1080",
+      "description": "When you slip on a pair of our handcrafted 100% eco-friendly, ethically sourced natural Sri Lankan rubber flip flops, not only will they mould to the shape of your foot to provide exceptional comfort and support but you are also protecting our environment for future generations as all of our flip flops are 100% biodegradable and recyclable."
+    }
+  ]
+}
