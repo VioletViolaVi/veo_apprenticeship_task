@@ -1,0 +1,19 @@
+/************************************************** custom defaults */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  cursor: default;
+  font-family: "Comfortaa", "cursive", Impact, "Arial Narrow Bold", sans-serif,
+    "Haettenschweiler";
+  text-align: center;
+}
+
+a {
+  list-style: none;
+}
