@@ -32,10 +32,18 @@ function Footer() {
         </div>
 
         <div>
-          <i className="fa-brands fa-twitter"></i>
-          <i className="fa-brands fa-facebook-f"></i>
-          <i className="fa-brands fa-instagram"></i>
-          <i className="fa-brands fa-youtube"></i>
+          <a href="#twitter">
+            <i className="fa-brands fa-twitter"></i>
+          </a>
+          <a href="#facebook">
+            <i className="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#instagram">
+            <i className="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#youtube">
+            <i className="fa-brands fa-youtube"></i>
+          </a>
         </div>
       </section>
     </footer>
