@@ -1,4 +1,8 @@
 /************************************************** header container */
+.header-bg2 {
+  display: none;
+}
+
 .header-bg {
   padding: 1rem 1rem 0;
   height: 4rem;
@@ -9,17 +13,27 @@
   position: relative;
 }
 
-/************************************************** bar icon */
-.fa-solid.fa-bars {
-  cursor: pointer;
-  font-size: 1.5rem;
-  height: 0rem;
-  z-index: 1;
+@media (min-width: 768px) {
+  .header-bg {
+    height: 6rem;
+    padding: 1.5rem 1.5rem 0;
+  }
 }
 
-.fa-solid.fa-bars:hover {
-  color: #a6a2a2;
-  font-size: 1.6rem;
+@media (min-width: 992px) {
+  .header-bg {
+    display: none;
+  }
+
+  .header-bg2 {
+    padding: 2rem 1rem 0;
+    height: 4rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
 }
 
 /************************************************** nav links */
@@ -46,6 +60,25 @@
   color: #a6a2a2;
 }
 
+@media (min-width: 768px) {
+  .nav-container {
+    width: 19rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-container2 a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #000;
+    margin: 0 1rem 0 0;
+  }
+
+  .nav-container2 a:hover {
+    color: #a6a2a2;
+  }
+}
+
 /************************************************** logo image */
 .logo-img {
   height: 1.5rem;
@@ -59,6 +92,62 @@
   width: 1.6rem;
 }
 
+@media (min-width: 768px) {
+  .logo-img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .logo-img:hover {
+    height: 2.6rem;
+    width: 2.6rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo-img {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .logo-img:hover {
+    height: 2rem;
+    width: 2rem;
+  }
+}
+
+/************************************************** bar icon */
+.fa-solid.fa-bars {
+  cursor: pointer;
+  font-size: 1.5rem;
+  height: 0rem;
+  z-index: 1;
+}
+
+.fa-solid.fa-bars:hover {
+  color: #a6a2a2;
+}
+
+@media (min-width: 768px) {
+  .fa-solid.fa-bars {
+    font-size: 2rem;
+  }
+}
+
+/************************************************** cart icon */
+@media (min-width: 992px) {
+  .fa-solid.fa-cart-shopping {
+    font-size: 1.2rem;
+    height: 0rem;
+    cursor: pointer;
+    margin: 0 2rem 0 0;
+  }
+
+  .fa-solid.fa-cart-shopping:hover {
+    color: #a6a2a2;
+  }
+}
+
 /************************************************** user icon */
 .fa-solid.fa-user {
   font-size: 1.5rem;
@@ -68,4 +157,16 @@
 
 .fa-solid.fa-user:hover {
   color: #a6a2a2;
+}
+
+@media (min-width: 768px) {
+  .fa-solid.fa-user {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .fa-solid.fa-user {
+    font-size: 1.2rem;
+  }
 }
