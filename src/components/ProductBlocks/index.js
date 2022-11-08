@@ -6,7 +6,7 @@ const productsArr = Data.products;
 
 function ProductBlocks() {
   return (
-    <>
+    <main>
       <h1 className="main-title">Eco Friendly Footwear</h1>
 
       <div className="products-container">
@@ -21,7 +21,7 @@ function ProductBlocks() {
           );
         })}
       </div>
-    </>
+    </main>
   );
 }
 
