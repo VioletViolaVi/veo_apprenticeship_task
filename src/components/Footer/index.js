@@ -12,7 +12,7 @@ function Footer() {
         </div>
 
         <div>
-          <p>About</p>
+          <h4>About</h4>
           <p>Our Projects</p>
           <p>Careers</p>
         </div>
@@ -29,6 +29,9 @@ function Footer() {
       <section className="lower-half">
         <div>
           <p>All rights reserved 2022</p>
+        </div>
+
+        <div>
           <i className="fa-brands fa-twitter"></i>
           <i className="fa-brands fa-facebook-f"></i>
           <i className="fa-brands fa-instagram"></i>
