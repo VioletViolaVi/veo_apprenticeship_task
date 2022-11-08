@@ -1,6 +1,6 @@
 /************************************************** footer container */
 .footer-bg {
-  background-color: #cec8ef;
+  background-color: #fafaff;
 }
 
 .footer-bg hr {
@@ -56,6 +56,7 @@
   margin: 1rem 1rem 0;
   font-size: 1.5rem;
   cursor: pointer;
+  color: #000;
 }
 
 .fa-brands.fa-twitter:hover,
