@@ -1,6 +1,7 @@
 /************************************************** footer container */
 .footer-bg {
   background-color: #fafaff;
+  margin-top: 10rem;
 }
 
 .footer-bg hr {
