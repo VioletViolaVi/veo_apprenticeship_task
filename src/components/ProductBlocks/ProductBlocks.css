@@ -1,0 +1,10 @@
+/************************************************** products container */
+.products-container {
+  display: grid;
+  grid-template-columns: auto;
+  margin: 2rem 1rem;
+  grid-gap: 2rem;
+}
+
+@media (min-width: 768px) {
+}
