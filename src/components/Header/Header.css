@@ -6,7 +6,7 @@
 .small-header-bg {
   padding: 1rem 1rem 0;
   height: 4rem;
-  background-color: #cec8ef;
+  background: linear-gradient(to right, #cfdbd5, #e8eddf);
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-between;
@@ -41,11 +41,11 @@
 
 /************************************************** nav container */
 .small-nav-container {
-  background-color: #cec8ef;
+  background-color: #fafaff;
   position: fixed;
-  top: 1rem;
+  top: 0rem;
   display: grid;
-  width: 13rem;
+  width: 17rem;
   justify-items: start;
   height: 100vh;
   align-items: center;
@@ -73,7 +73,7 @@
 @media (min-width: 992px) {
   .large-nav-container a {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #000;
     margin: 0 1rem 0 0;
   }
@@ -94,7 +94,6 @@
   height: 1.5rem;
   width: 1.5rem;
   cursor: pointer;
-  z-index: 1;
 }
 
 .logo-img:hover {
@@ -144,13 +143,31 @@
   }
 }
 
+/************************************************** close icon */
+.fa-solid.fa-xmark {
+  cursor: pointer;
+  font-size: 1.5rem;
+  height: 0rem;
+  z-index: 2;
+}
+
+.fa-solid.fa-xmark:hover {
+  color: #a6a2a2;
+}
+
+@media (min-width: 768px) {
+  .fa-solid.fa-xmark {
+    font-size: 2rem;
+  }
+}
+
 /************************************************** cart icon */
 @media (min-width: 992px) {
   .fa-solid.fa-cart-shopping {
     font-size: 1.5rem;
     height: 0rem;
     cursor: pointer;
-    margin: 0 2rem 0 0;
+    margin: 0 1rem 0 0;
   }
 
   .fa-solid.fa-cart-shopping:hover {
@@ -169,6 +186,7 @@
   font-size: 1.5rem;
   height: 0rem;
   cursor: pointer;
+  color: #000;
 }
 
 .fa-solid.fa-user:hover {
