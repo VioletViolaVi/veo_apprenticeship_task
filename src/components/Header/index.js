@@ -19,7 +19,7 @@ function Header() {
         <i className="fa-solid fa-bars" onClick={handleClick}></i>
 
         {showLinks ? (
-          <nav className="nav-container">
+          <nav className="small-nav-container">
             <a href="#home">Home</a>
             <a href="#aboutUs">About Us</a>
             <a href="#ourSuppliers">Our Suppliers</a>
@@ -37,7 +37,7 @@ function Header() {
       <header className="large-header-bg">
         <img src={earthImg} alt="company logo" className="logo-img" />
 
-        <nav className="nav-container2">
+        <nav className="large-nav-container">
           <a href="#home">Home</a>
           <a href="#aboutUs">About Us</a>
           <a href="#ourSuppliers">Our Suppliers</a>
