@@ -1,0 +1,20 @@
+/************************************************** card container */
+.card-container img {
+  width: 16rem;
+  height: 16rem;
+  border-radius: 8rem;
+  margin-bottom: 1rem;
+}
+
+.card-container h3 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.card-container p {
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+}
