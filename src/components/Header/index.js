@@ -15,7 +15,7 @@ function Header() {
 
   return (
     <>
-      <header className="header-bg">
+      <header className="small-header-bg">
         <i className="fa-solid fa-bars" onClick={handleClick}></i>
 
         {showLinks ? (
@@ -34,7 +34,7 @@ function Header() {
         <i className="fa-solid fa-user"></i>
       </header>
 
-      <header className="header-bg2">
+      <header className="large-header-bg">
         <img src={earthImg} alt="company logo" className="logo-img" />
 
         <nav className="nav-container2">

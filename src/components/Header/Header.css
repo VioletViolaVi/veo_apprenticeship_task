@@ -1,9 +1,9 @@
 /************************************************** header container */
-.header-bg2 {
+.large-header-bg {
   display: none;
 }
 
-.header-bg {
+.small-header-bg {
   padding: 1rem 1rem 0;
   height: 4rem;
   background-color: #fbfbf2;
@@ -14,18 +14,18 @@
 }
 
 @media (min-width: 768px) {
-  .header-bg {
+  .small-header-bg {
     height: 6rem;
     padding: 1.5rem 1.5rem 0;
   }
 }
 
 @media (min-width: 992px) {
-  .header-bg {
+  .small-header-bg {
     display: none;
   }
 
-  .header-bg2 {
+  .large-header-bg {
     padding: 2rem 1rem 0;
     height: 4rem;
     display: grid;
