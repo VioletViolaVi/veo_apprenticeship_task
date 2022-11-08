@@ -20,6 +20,22 @@
   }
 }
 
+@media (min-width: 992px) {
+  .image-container img {
+    width: 16rem;
+    height: 16rem;
+    margin: auto -7.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .image-container img {
+    width: 12rem;
+    height: 12rem;
+    margin: auto -6.2rem;
+  }
+}
+
 /************************************************** card placement mat */
 .card-placement-mat {
   border-radius: 1rem;
@@ -51,5 +67,44 @@
 
   .card-container p {
     line-height: 2;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-placement-mat {
+    width: 28rem;
+    margin-top: 11rem;
+    height: 42rem;
+  }
+
+  .card-container p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1250px) {
+  .card-placement-mat {
+    width: 17rem;
+    margin-top: 7rem;
+    height: 39rem;
+  }
+
+  .card-container h3 {
+    font-size: 1.2rem;
+  }
+
+  .card-container p {
+    font-size: 1rem;
+  }
+
+  .card-container p {
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1400px) {
+  .card-placement-mat {
+    width: 21rem;
+    height: 31rem;
   }
 }
