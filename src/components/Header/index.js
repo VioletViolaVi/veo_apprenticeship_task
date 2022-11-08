@@ -16,22 +16,30 @@ function Header() {
   return (
     <>
       <header className="small-header-bg">
-        <i className="fa-solid fa-bars" onClick={handleClick}></i>
+        {showLinks ? (
+          <i class="fa-solid fa-xmark" onClick={handleClick}></i>
+        ) : (
+          <i className="fa-solid fa-bars" onClick={handleClick}></i>
+        )}
 
         {showLinks ? (
           <nav className="small-nav-container">
             <a href="#home">Home</a>
+            <a href="#products">Products</a>
             <a href="#aboutUs">About Us</a>
             <a href="#ourSuppliers">Our Suppliers</a>
             <a href="#ourValues">Our Values</a>
-            <a href="#products">Products</a>
             <a href="#contactUs">Contact Us</a>
           </nav>
         ) : null}
 
-        <img src={earthImg} alt="company logo" className="logo-img" />
+        <a href="#home">
+          <img src={earthImg} alt="company logo" className="logo-img" />
+        </a>
 
-        <i className="fa-solid fa-user"></i>
+        <a href="#profile">
+          <i className="fa-solid fa-user"></i>
+        </a>
       </header>
 
       <header className="large-header-bg">
@@ -39,10 +47,10 @@ function Header() {
 
         <nav className="large-nav-container">
           <a href="#home">Home</a>
+          <a href="#products">Products</a>
           <a href="#aboutUs">About Us</a>
           <a href="#ourSuppliers">Our Suppliers</a>
           <a href="#ourValues">Our Values</a>
-          <a href="#products">Products</a>
           <a href="#contactUs">Contact Us</a>
         </nav>
 
