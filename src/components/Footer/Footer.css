@@ -1,0 +1,50 @@
+/************************************************** footer container */
+.footer-bg {
+  background-color: #fbfbf2;
+}
+
+/************************************************** upper section */
+.upper-half {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 2rem;
+}
+
+.upper-half div {
+  line-height: 2;
+}
+
+.upper-half h4 {
+  font-size: 1.5rem;
+}
+
+.upper-half p {
+  font-size: 1rem;
+}
+
+/************************************************** lower section */
+.lower-half {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 2rem;
+}
+
+.lower-half p {
+  font-size: 1rem;
+}
+
+.fa-brands.fa-twitter,
+.fa-brands.fa-facebook-f,
+.fa-brands.fa-instagram,
+.fa-brands.fa-youtube {
+  margin: 1rem 1rem 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.fa-brands.fa-twitter:hover,
+.fa-brands.fa-facebook-f:hover,
+.fa-brands.fa-instagram:hover,
+.fa-brands.fa-youtube:hover {
+  color: #a6a2a2;
+}
