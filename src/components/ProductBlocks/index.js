@@ -1,11 +1,12 @@
 import Data from "../../Data/products-example.json";
 import Card from "./Card";
+import "./ProductBlocks.css";
 
 const productsArr = Data.products;
 
 function ProductBlocks() {
   return (
-    <div>
+    <div className="products-container">
       {productsArr.map((singleObj) => {
         return (
           <Card
