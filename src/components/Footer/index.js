@@ -1,48 +1,38 @@
+import "./Footer.css";
+
 function Footer() {
   return (
-    <footer>
-      <section>
+    <footer className="footer-bg">
+      <section className="upper-half">
         <div>
-          <ul>
-            <li>
-              <h4>Partnership</h4>
-            </li>
-            <li>Websites</li>
-            <li>Social Media</li>
-            <li>Branding</li>
-          </ul>
+          <h4>Partnership</h4>
+          <p>Websites</p>
+          <p>Social Media</p>
+          <p>Branding</p>
         </div>
 
         <div>
-          <ul>
-            <li>
-              <h4>About</h4>
-            </li>
-            <li>Our Projects</li>
-            <li>Careers</li>
-          </ul>
+          <p>About</p>
+          <p>Our Projects</p>
+          <p>Careers</p>
         </div>
 
         <div>
-          <ul>
-            <li>
-              <h4>Support</h4>
-            </li>
-            <li>Support Request</li>
-            <li>Contact</li>
-          </ul>
+          <h4>Support</h4>
+          <p>Support Request</p>
+          <p>Contact</p>
         </div>
       </section>
 
       <hr />
 
-      <section>
+      <section className="lower-half">
         <div>
           <p>All rights reserved 2022</p>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-youtube"></i>
+          <i className="fa-brands fa-twitter"></i>
+          <i className="fa-brands fa-facebook-f"></i>
+          <i className="fa-brands fa-instagram"></i>
+          <i className="fa-brands fa-youtube"></i>
         </div>
       </section>
     </footer>
