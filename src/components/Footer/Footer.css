@@ -3,6 +3,15 @@
   background-color: #fbfbf2;
 }
 
+.footer-bg hr {
+  margin: 0 2rem;
+}
+
+@media (min-width: 992px) {
+  .footer-bg {
+    text-align: left;
+  }
+}
 /************************************************** upper section */
 .upper-half {
   display: grid;
@@ -20,6 +29,12 @@
 
 .upper-half p {
   font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .upper-half {
+    grid-template-columns: auto auto auto;
+  }
 }
 
 /************************************************** lower section */
@@ -47,4 +62,12 @@
 .fa-brands.fa-instagram:hover,
 .fa-brands.fa-youtube:hover {
   color: #a6a2a2;
+}
+
+@media (min-width: 768px) {
+  .lower-half {
+    grid-template-columns: auto auto;
+    align-items: baseline;
+    justify-content: space-between;
+  }
 }
