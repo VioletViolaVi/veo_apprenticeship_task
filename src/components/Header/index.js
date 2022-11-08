@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import earthImg from "../../assets/images/earth.png";
 import "./Header.css";
