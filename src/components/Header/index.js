@@ -11,13 +11,12 @@ function Header() {
       return !prevShowLinks;
     });
   };
-  console.log(showLinks);
 
   return (
-    <>
-      <header className="small-header-bg">
+    <header>
+      <section className="small-header-bg">
         {showLinks ? (
-          <i class="fa-solid fa-xmark" onClick={handleClick}></i>
+          <i className="fa-solid fa-xmark" onClick={handleClick}></i>
         ) : (
           <i className="fa-solid fa-bars" onClick={handleClick}></i>
         )}
@@ -40,9 +39,9 @@ function Header() {
         <a href="#profile">
           <i className="fa-solid fa-user"></i>
         </a>
-      </header>
+      </section>
 
-      <header className="large-header-bg">
+      <section className="large-header-bg">
         <img src={earthImg} alt="company logo" className="logo-img" />
 
         <nav className="large-nav-container">
@@ -58,8 +57,8 @@ function Header() {
           <i className="fa-solid fa-cart-shopping"></i>
           <i className="fa-solid fa-user"></i>
         </div>
-      </header>
-    </>
+      </section>
+    </header>
   );
 }
 
