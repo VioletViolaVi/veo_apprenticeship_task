@@ -1,16 +1,32 @@
-/************************************************** card container */
-.card-container {
+/************************************************** card image */
+.image-container {
   position: relative;
 }
 
-.card-container img {
+.image-container img {
   width: 16rem;
   height: 16rem;
   border-radius: 8rem;
-  margin-bottom: 1rem;
+  margin: auto -8rem;
   position: absolute;
-  top: 1rem;
-  left: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .image-container img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
+    margin: auto -10rem;
+  }
+}
+
+/************************************************** card placement mat */
+.card-placement-mat {
+  border-radius: 1rem;
+  padding: 6rem 1rem 1rem;
+  background-color: #fafaff;
+  margin-top: 13rem;
+  width: 17rem;
 }
 
 .card-container h3 {
@@ -24,12 +40,16 @@
 }
 
 @media (min-width: 768px) {
-}
+  .card-placement-mat {
+    width: 44rem;
+    margin-top: 15rem;
+  }
 
-/************************************************** card placement mat */
-.card-placement-mat {
-  border-radius: 1rem;
-  padding: 6rem 1rem 1rem;
-  background-color: #fafaff;
-  margin-top: 13rem;
+  .card-container h3 {
+    font-size: 2rem;
+  }
+
+  .card-container p {
+    line-height: 2;
+  }
 }
