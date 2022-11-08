@@ -2,9 +2,13 @@
 .products-container {
   display: grid;
   grid-template-columns: auto;
-  margin: 6rem 1rem;
+  justify-content: center;
   grid-gap: 2rem;
+  margin: 5rem 0;
 }
 
 @media (min-width: 768px) {
+  .products-container {
+    margin: 8rem 0;
+  }
 }
