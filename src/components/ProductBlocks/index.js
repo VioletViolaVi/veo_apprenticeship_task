@@ -7,7 +7,7 @@ const productsArr = Data.products;
 function ProductBlocks() {
   return (
     <>
-      <h1>Eco Friendly Footwear</h1>
+      <h1 className="main-title">Eco Friendly Footwear</h1>
 
       <div className="products-container">
         {productsArr.map((singleObj) => {
