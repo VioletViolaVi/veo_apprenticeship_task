@@ -4,7 +4,9 @@ function Card({ title, image, description }) {
   return (
     <>
       <section className="card-container">
-        <img src={image} alt={title} />
+        <figure className="image-container">
+          <img src={image} alt={title} />
+        </figure>
 
         <div className="card-placement-mat">
           <h3>{title}</h3>
