@@ -12,3 +12,17 @@
     margin: 8rem 0;
   }
 }
+
+@media (min-width: 992px) {
+  .products-container {
+    grid-template-columns: auto auto;
+    margin: 6rem 0;
+  }
+}
+
+@media (min-width: 1250px) {
+  .products-container {
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1.5rem;
+  }
+}
