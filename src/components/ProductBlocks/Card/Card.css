@@ -1,9 +1,16 @@
 /************************************************** card container */
+.card-container {
+  position: relative;
+}
+
 .card-container img {
   width: 16rem;
   height: 16rem;
   border-radius: 8rem;
   margin-bottom: 1rem;
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
 }
 
 .card-container h3 {
@@ -17,4 +24,12 @@
 }
 
 @media (min-width: 768px) {
+}
+
+/************************************************** card placement mat */
+.card-placement-mat {
+  border-radius: 1rem;
+  padding: 6rem 1rem 1rem;
+  background-color: #fafaff;
+  margin-top: 13rem;
 }
