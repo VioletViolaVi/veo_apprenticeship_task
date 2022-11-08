@@ -33,14 +33,14 @@
     height: 4rem;
     display: grid;
     grid-template-columns: auto auto auto;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: relative;
   }
 }
 
-/************************************************** nav links */
-.nav-container {
+/************************************************** nav container */
+.small-nav-container {
   background-color: #cec8ef;
   position: fixed;
   top: 1rem;
@@ -54,32 +54,38 @@
   left: 0;
 }
 
-.nav-container a {
+.small-nav-container a {
   text-decoration: none;
   color: #000;
   font-size: 1.5rem;
 }
 
-.nav-container a:hover {
+.small-nav-container a:hover {
   color: #a6a2a2;
 }
 
 @media (min-width: 768px) {
-  .nav-container {
+  .small-nav-container {
     width: 19rem;
   }
 }
 
 @media (min-width: 992px) {
-  .nav-container2 a {
+  .large-nav-container a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #000;
     margin: 0 1rem 0 0;
   }
 
-  .nav-container2 a:hover {
+  .large-nav-container a:hover {
     color: #a6a2a2;
+  }
+}
+
+@media (min-width: 1400px) {
+  .large-nav-container a {
+    font-size: 1.7rem;
   }
 }
 
@@ -141,7 +147,7 @@
 /************************************************** cart icon */
 @media (min-width: 992px) {
   .fa-solid.fa-cart-shopping {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     height: 0rem;
     cursor: pointer;
     margin: 0 2rem 0 0;
@@ -149,6 +155,12 @@
 
   .fa-solid.fa-cart-shopping:hover {
     color: #a6a2a2;
+  }
+}
+
+@media (min-width: 1400px) {
+  .fa-solid.fa-cart-shopping {
+    font-size: 1.7rem;
   }
 }
 
@@ -171,6 +183,12 @@
 
 @media (min-width: 992px) {
   .fa-solid.fa-user {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .fa-solid.fa-user {
+    font-size: 1.7rem;
   }
 }
