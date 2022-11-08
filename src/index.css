@@ -1,4 +1,4 @@
-/************************************************** custom defaults */
+/* custom defaults */
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
 
 * {
@@ -12,8 +12,4 @@ body {
   font-family: "Comfortaa", "cursive", Impact, "Arial Narrow Bold", sans-serif,
     "Haettenschweiler";
   text-align: center;
-}
-
-a {
-  list-style: none;
 }
