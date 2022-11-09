@@ -6,6 +6,7 @@ import "./Header.css";
 function Header() {
   const [showLinks, setShowLinks] = useState(false);
 
+  // toggles side nav bar appearance
   const handleClick = () => {
     setShowLinks((prevShowLinks) => {
       return !prevShowLinks;
@@ -14,13 +15,16 @@ function Header() {
 
   return (
     <header>
+      {/* nav bar for smaller screens */}
       <section className="small-header-bg">
+        {/* changes icons when side nav bar opens & closes */}
         {showLinks ? (
           <i className="fa-solid fa-xmark" onClick={handleClick}></i>
         ) : (
           <i className="fa-solid fa-bars" onClick={handleClick}></i>
         )}
 
+        {/* displays side nav bar when icon is clicked */}
         {showLinks ? (
           <nav className="small-nav-container">
             <a href="#home">Home</a>
@@ -41,6 +45,7 @@ function Header() {
         </a>
       </section>
 
+      {/* nav bar for larger screens */}
       <section className="large-header-bg">
         <img src={earthImg} alt="company logo" className="logo-img" />
 

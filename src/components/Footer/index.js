@@ -3,6 +3,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="footer-bg">
+      {/* first half of footer content */}
       <section className="upper-half">
         <div>
           <h4>Partnership</h4>
@@ -26,6 +27,7 @@ function Footer() {
 
       <hr />
 
+      {/* second half of footer content */}
       <section className="lower-half">
         <div>
           <p>All rights reserved 2022</p>

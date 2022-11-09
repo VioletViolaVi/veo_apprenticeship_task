@@ -2,6 +2,7 @@ import Data from "../../Data/products-example.json";
 import Card from "./Card";
 import "./ProductBlocks.css";
 
+// holds array of objects from imported data file
 const productsArr = Data.products;
 
 function ProductBlocks() {
@@ -10,6 +11,7 @@ function ProductBlocks() {
       <h1 className="main-title">Eco Friendly Footwear</h1>
 
       <div className="products-container">
+        {/* maps through imported data to assign the data values to the component's props */}
         {productsArr.map((singleObj) => {
           return (
             <Card

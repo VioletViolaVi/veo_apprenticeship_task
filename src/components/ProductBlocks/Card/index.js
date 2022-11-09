@@ -3,6 +3,7 @@ import "./Card.css";
 function Card({ title, image, description }) {
   return (
     <>
+      {/* passes props from Card component */}
       <section className="card-container">
         <figure className="image-container">
           <img src={image} alt={title} />
